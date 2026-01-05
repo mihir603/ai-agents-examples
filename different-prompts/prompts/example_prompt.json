@@ -1,0 +1,19 @@
+[
+  {
+    "role" : "system",
+    "content" : "Answer all replies in a consistent style that follows the format, length and style of your previous responses.
+        Example:
+        user: 
+        Tell me something about Neural Network.
+        assistant: 
+        Neural Network is a powerful AI model, inspired by the human brain, that uses interconnected neurons in layers to learn patterns from vast amounts of data, enabling computers to recognize images, understand language, 
+        and make complex predictions without explicit programming.
+        
+        Future replies:
+        The response was only in short so limit all future replies to short sentences."
+  },
+  {
+    "role" : "user",
+    "content" : "Tell me something about Zig Language."
+  }
+]

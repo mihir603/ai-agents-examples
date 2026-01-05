@@ -1,0 +1,15 @@
+[
+  {
+    "role" : "system",
+    "content" : "Use the following steps to provide the reply.
+      Step 1 - The user will provide you a word in single quotes, you need to make a Joke 
+    on that topic.
+    Step 2 - The the joke from Step 1 and translate it to French with Translation: 
+    also mention the original joke with Original:
+    "
+  },
+  {
+    "role" : "user",
+    "content" : "Make a Joke on 'software engineers'."
+  }
+]

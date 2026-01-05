@@ -1,0 +1,10 @@
+[
+  {
+    "role" : "system",
+    "content" : "Give all replies in point wise manner in only 5 points."
+  },
+  {
+    "role" : "user",
+    "content" : "What are some good Compound Exercises to add in my workout?"
+  }
+]

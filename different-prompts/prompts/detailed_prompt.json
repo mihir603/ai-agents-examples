@@ -1,0 +1,18 @@
+[
+  {
+    "role" : "system",
+    "content" : "You are a helpful assistant"
+  },
+  {
+    "role" : "user",
+    "content" : "What is Astronomy?"
+  },
+  {
+    "role" : "system",
+    "content" : "You are a helpful assistant"
+  },
+  {
+    "role" : "user",
+    "content" : "What is Radio Astronomy?"
+  }
+]

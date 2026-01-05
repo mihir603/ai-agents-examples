@@ -1,0 +1,17 @@
+[
+  {
+    "role" : "system",
+    "content" : "You will be given text in triple quotes, summarize the text with covering and extracting key data points."
+  },{
+    "role" :"user",
+    "content" : "The text is: '''
+      Zhou also believes that joining Ferrari from Kick Sauber helped him to “learn a lot” and develop as a driver, explaining: “The decision made last year [to join Ferrari] was because I can learn so much from them.
+
+“For me, in 2024 I was fighting at the bottom of the field, and then when you're arriving into a top field team, you can see what they're doing as a team differently compared to what has been in the past.
+
+“It's not just how drivers react over the weekend, it’s also the way you are setting up the team, the way the constructor works in the factory, and all the little details really matter. So that's what I really learned, and I see the massive difference since day one I joined them. Now I'm understanding what it takes to be getting a team up to speed of fighting at the top, for winning victories or [becoming a] top midfield team.
+
+“That's very important, useful information, and I really enjoyed my time in 2025, that's for sure, because this is a year I learned so much from the team side, but also from the driver's side.”
+    '''"
+  }
+]
