@@ -26,6 +26,4 @@ messages=[
       {"role" : "user" , "content" : "Tell me an interesting myth about New Delhi"}
     ]
 response = ask_gemini(messages)
-with open("./myth-output.txt", "w") as f:
-  f.write(response)
-f.close()
+print(response)
