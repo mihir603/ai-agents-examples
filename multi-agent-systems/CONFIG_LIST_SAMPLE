@@ -1,0 +1,12 @@
+[
+  {
+    "model" : "gpt-4",
+    "api_key" : "your-api-key",
+    "tags" : ["gpt-4", "tool"]
+  },
+  {
+    "model" : "gemini-2.5-flash",
+    "api_key" : "your-api-key",
+    "base_url" : "base-url-for-gemini"
+  }
+]

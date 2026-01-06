@@ -1,7 +1,6 @@
-from autogen import ConversableAgent, UserProxyAgent, config_list_from_json
-config_list = config_list_from_json(env_or_file="OAI_CONFIG_LIST")
-
-assistant = ConversableAgent("agent-1", llm_config={"config_list": config_list})
+from autogen import ConversableAgent, UserProxyAgent, LLMConfig
+config = LLMConfig.from_json(env="OAI_CONFIG_LIST")
+assistant = ConversableAgent("agent-1", llm_config={"config_list" : config.config_list})
 
 user_proxy = UserProxyAgent(
   "user",
